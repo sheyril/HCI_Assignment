@@ -1,6 +1,7 @@
 import time
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.common.by import By 
 import requests
 
 
@@ -21,9 +22,11 @@ driver = webdriver.Chrome("/Users/sheyril/Desktop/HCI/chromedriver", options=opt
 driver.implicitly_wait = 1
 
 driver.maximize_window() # maximise the window.
-driver.get("https://www.isro.gov.in/") # open a link.
-# driver.find_element_by_class_name("close").click()
-# content.click()
+driver.get("https://nrega.nic.in/netnrega/home.aspx") # open a link.
+# button = driver.find_elements_by_css_selector(".close")
+driver.find_element(By.CSS_SELECTOR, ".close").click()
+# print(button)
+# button[0].click()
 
 do_not_validate = (
     'javascript:',

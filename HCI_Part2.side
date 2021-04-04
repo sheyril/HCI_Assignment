@@ -1,0 +1,223 @@
+{
+  "id": "80c3ae30-8bb2-4382-9117-573d20ec8e03",
+  "version": "2.0",
+  "name": "HCI_Part2",
+  "url": "https://www.flipkart.com",
+  "tests": [{
+    "id": "eefc1264-bd4b-484e-8227-884550c6f7a9",
+    "name": "test 1",
+    "commands": [{
+      "id": "4855e65d-c7a4-43d6-b056-c7f7d8837b77",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d1dfcc4a-35a8-4bd0-b6a7-9d204e376d60",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1200x741",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "962f9a46-e318-477a-a90d-73ff5a948cfe",
+      "comment": "",
+      "command": "type",
+      "target": "css=.\\_3umUoc:nth-child(1)",
+      "targets": [
+        ["css=.\\_3umUoc:nth-child(1)", "css:finder"],
+        ["xpath=//input[@value='agarwal.divyansh123@gmail.com']", "xpath:attributes"],
+        ["xpath=//div[5]/div/div/div/div/div[2]/div/form/div/input", "xpath:position"]
+      ],
+      "value": "agarwal.divyansh123@gmail.com"
+    }, {
+      "id": "3efc0a93-220e-4515-9a8e-ddfd19089dab",
+      "comment": "",
+      "command": "type",
+      "target": "css=.\\_3mctLh",
+      "targets": [
+        ["css=.\\_3mctLh", "css:finder"],
+        ["xpath=//input[@value='9958256111']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "9958256111"
+    }, {
+      "id": "9f517fca-a030-4e6a-b491-1df04a49f34e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_3AWRsL",
+      "targets": [
+        ["css=.\\_3AWRsL", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//div[4]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "aa97424b-5b21-488f-8c69-544e82c70549",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_2doB4z",
+      "targets": [
+        ["css=.\\_2doB4z", "css:finder"],
+        ["xpath=//div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'✕')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5220d366-4f73-41dd-bc4f-84a58f5ff638",
+      "comment": "",
+      "command": "click",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.\\_3704LK", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div/div/div[2]/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3285a8ad-1af7-43b5-a0a9-0fa141663999",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.\\_3704LK", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div/div/div[2]/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "design of eve"
+    }, {
+      "id": "e36169dd-7f44-49e8-b7f2-db3d30dd043b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Y5N33s:nth-child(1) .lrtEPN",
+      "targets": [
+        ["css=.Y5N33s:nth-child(1) .lrtEPN", "css:finder"],
+        ["xpath=//div[@id='container']/div/div/div/div[2]/div[2]/form/ul/li/div/a/div[2]", "xpath:idRelative"],
+        ["xpath=//a/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "056aa3bc-e69e-45bc-ac8b-b65e8f8c53f5",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.Y5N33s:nth-child(1) .lrtEPN",
+      "targets": [
+        ["css=.Y5N33s:nth-child(1) .lrtEPN", "css:finder"],
+        ["xpath=//div[@id='container']/div/div/div/div[2]/div[2]/form/ul/li/div/a/div[2]", "xpath:idRelative"],
+        ["xpath=//a/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d03a353c-28bb-479f-bb7d-89963096a41c",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.\\_1AtVbE:nth-child(2) > .\\_13oc-S > div:nth-child(1) .\\_396cs4",
+      "targets": [
+        ["css=.\\_1AtVbE:nth-child(2) > .\\_13oc-S > div:nth-child(1) .\\_396cs4", "css:finder"],
+        ["xpath=//img[@alt='The Design of Everyday Things']", "xpath:img"],
+        ["xpath=//div[@id='container']/div/div[3]/div/div[2]/div[2]/div/div/div/a/div/div/div/img", "xpath:idRelative"],
+        ["xpath=//div/div/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cfb32cd7-b94c-45a5-a48f-7eacdc81d5e0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_1AtVbE:nth-child(2) > .\\_13oc-S > div:nth-child(1) .\\_396cs4",
+      "targets": [
+        ["css=.\\_1AtVbE:nth-child(2) > .\\_13oc-S > div:nth-child(1) .\\_396cs4", "css:finder"],
+        ["xpath=//img[@alt='The Design of Everyday Things']", "xpath:img"],
+        ["xpath=//div[@id='container']/div/div[3]/div/div[2]/div[2]/div/div/div/a/div/div/div/img", "xpath:idRelative"],
+        ["xpath=//div/div/div/img", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win5",
+      "windowTimeout": 2000
+    }, {
+      "id": "45f165c1-81b4-403c-b0ae-3dc4a8ca70a7",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2da8a2f6-11ea-44b5-a954-c0b12b5f8c72",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win5}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "264a9ab7-c1b0-408d-80c3-a0d5fdaf454c",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dd1cb449-bd55-447d-95f2-76585c522b37",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a3d77f94-b94a-4ba2-9233-ccb136b3bda4",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e1bf09ab-7c47-4f91-95ff-24b9e78ab988",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "967b6369-b0e6-4fa3-9db1-d3a1ec5434ef",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win5}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3fe37162-fcd5-415f-a218-d9d07e581fec",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e71a2b08-9131-47af-98a6-943214a21c59",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.\\_1AtVbE:nth-child(2) > .\\_13oc-S > div:nth-child(1) .\\_396cs4",
+      "targets": [
+        ["css=.\\_1AtVbE:nth-child(2) > .\\_13oc-S > div:nth-child(1) .\\_396cs4", "css:finder"],
+        ["xpath=//img[@alt='The Design of Everyday Things']", "xpath:img"],
+        ["xpath=//div[@id='container']/div/div[3]/div/div[2]/div[2]/div/div/div/a/div/div/div/img", "xpath:idRelative"],
+        ["xpath=//div/div/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "4b75f06f-90f8-4a5c-a0ce-796a97ac050a",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["eefc1264-bd4b-484e-8227-884550c6f7a9"]
+  }],
+  "urls": ["https://www.flipkart.com/"],
+  "plugins": []
+}
