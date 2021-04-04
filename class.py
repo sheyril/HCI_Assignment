@@ -24,7 +24,7 @@ driver.implicitly_wait = 1
 driver.maximize_window() # maximise the window.
 driver.get("https://nrega.nic.in/netnrega/home.aspx") # open a link.
 # button = driver.find_elements_by_css_selector(".close")
-driver.find_element(By.CSS_SELECTOR, ".close").click()
+driver.find_element_by_xpath("//button[contains(.,'×')]").click()
 # print(button)
 # button[0].click()
 
