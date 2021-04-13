@@ -1,0 +1,14 @@
+open
+setWindowSize
+click
+type
+sendKeys
+runScript
+click
+selectWindow
+click
+
+Total number of clicks = 3
+Total number of home button clicks = 0
+Total number of remove from cart button clicks= 0
+Total number of cancel button clicks= 0

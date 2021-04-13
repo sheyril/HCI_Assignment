@@ -5,7 +5,7 @@
   
 import json
   
-fk_file = open('flipkart_test.json',)
+fk_file = open('Flipkart_pro_user.side',)
 
 data = json.load(fk_file)
 
@@ -14,7 +14,7 @@ count_home_redirect = 0
 count_remove_from_cart = 0
 count_cancel = 0
 
-with open ("Flipkart_output.txt", 'w+') as f:
+with open ("Flipkart_pro_user_output.txt", 'w+') as f:
     for i in data['tests']:
         for j in i['commands']:
             f.write(j['command'] + '\n')
@@ -43,7 +43,7 @@ with open ("Flipkart_output.txt", 'w+') as f:
 f.close()
 
 
-sd_file = open('snapdeal_test.json',)
+sd_file = open('Snapdeal_pro_user.side',)
 
 data = json.load(sd_file)
 
@@ -52,7 +52,7 @@ count_home_redirect = 0
 count_remove_from_cart = 0
 count_cancel = 0
 
-with open ("Snapdeal_output.txt", 'w+') as f:
+with open ("Snapdeal_pro_user_output.txt", 'w+') as f:
     for i in data['tests']:
         for j in i['commands']:
             f.write(j['command'] + '\n')
