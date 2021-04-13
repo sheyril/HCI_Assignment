@@ -1,0 +1,393 @@
+{
+  "id": "054fae31-f5ad-4aca-bc36-381e20c202e9",
+  "version": "2.0",
+  "name": "Snapdeal",
+  "url": "https://www.snapdeal.com",
+  "tests": [{
+    "id": "7f830194-6e46-4214-8e64-adf5ca282043",
+    "name": "SnapDeal",
+    "commands": [{
+      "id": "b8dca7a3-7694-4117-9ed3-b0af9412aa5d",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bbfb414c-dc0f-470d-8063-3865b28749f5",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "80c2d66a-41f1-4f09-8292-dd81033b225a",
+      "comment": "",
+      "command": "click",
+      "target": "id=pushDenied",
+      "targets": [
+        ["id=pushDenied", "id"],
+        ["css=#pushDenied", "css:finder"],
+        ["xpath=//button[@id='pushDenied']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'NOT NOW')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "aaca72d2-0576-48a4-bc9b-206b3ebcae8d",
+      "comment": "",
+      "command": "click",
+      "target": "id=pincode-check-nba",
+      "targets": [
+        ["id=pincode-check-nba", "id"],
+        ["css=#pincode-check-nba", "css:finder"],
+        ["xpath=//input[@id='pincode-check-nba']", "xpath:attributes"],
+        ["xpath=//ul[@id='stack_yuda']/li/div[4]/input", "xpath:idRelative"],
+        ["xpath=//li/div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5973156f-b648-45d1-8be0-7e087c8676a4",
+      "comment": "",
+      "command": "type",
+      "target": "id=pincode-check-nba",
+      "targets": [
+        ["id=pincode-check-nba", "id"],
+        ["css=#pincode-check-nba", "css:finder"],
+        ["xpath=//input[@id='pincode-check-nba']", "xpath:attributes"],
+        ["xpath=//ul[@id='stack_yuda']/li/div[4]/input", "xpath:idRelative"],
+        ["xpath=//li/div[4]/input", "xpath:position"]
+      ],
+      "value": "560092"
+    }, {
+      "id": "4b0bd070-1e34-4af8-bcff-a0c7090c67f7",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=pincode-check-nba",
+      "targets": [
+        ["id=pincode-check-nba", "id"],
+        ["css=#pincode-check-nba", "css:finder"],
+        ["xpath=//input[@id='pincode-check-nba']", "xpath:attributes"],
+        ["xpath=//ul[@id='stack_yuda']/li/div[4]/input", "xpath:idRelative"],
+        ["xpath=//li/div[4]/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "f004d096-29d4-426c-8a5e-38a386449bd8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pincodeSkipSubmit",
+      "targets": [
+        ["css=.pincodeSkipSubmit", "css:finder"],
+        ["xpath=//ul[@id='stack_yuda']/li/div[7]/button[2]", "xpath:idRelative"],
+        ["xpath=//div[7]/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'NEXT')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "af068a46-a10c-4a51-838a-91207eeaf8e7",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,506.3999938964844)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ecf9d758-9859-4ba7-9dea-3af1a9c630a3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.notIeLogoHeader > .notIeLogoHeader",
+      "targets": [
+        ["css=.notIeLogoHeader > .notIeLogoHeader", "css:finder"],
+        ["xpath=//img[@title='Snapdeal']", "xpath:img"],
+        ["xpath=//div[@id='sdHeader']/div[4]/div[2]/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a754a5d7-9300-4d4c-95f9-6be222ea094a",
+      "comment": "",
+      "command": "click",
+      "target": "id=inputValEnter",
+      "targets": [
+        ["id=inputValEnter", "id"],
+        ["name=keyword", "name"],
+        ["css=#inputValEnter", "css:finder"],
+        ["xpath=//input[@id='inputValEnter']", "xpath:attributes"],
+        ["xpath=//div[@id='sdHeader']/div[4]/div[2]/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0d2b283e-1006-4560-acce-bfab7915858c",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputValEnter",
+      "targets": [
+        ["id=inputValEnter", "id"],
+        ["name=keyword", "name"],
+        ["css=#inputValEnter", "css:finder"],
+        ["xpath=//input[@id='inputValEnter']", "xpath:attributes"],
+        ["xpath=//div[@id='sdHeader']/div[4]/div[2]/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "The Design of everyday things"
+    }, {
+      "id": "db1a0b6f-7b2f-441d-928b-9ecf7405427d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sd-icon-search-under-catagory",
+      "targets": [
+        ["css=.sd-icon-search-under-catagory", "css:finder"],
+        ["xpath=//div[@id='sdHeader']/div[4]/div[2]/div/div[2]/button/span/i", "xpath:idRelative"],
+        ["xpath=//button/span/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "978bf4f3-ac4a-4c2d-b5e9-c3f00820609b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.comp",
+      "targets": [
+        ["css=.comp", "css:finder"],
+        ["xpath=//div[@id='content_wrapper']/div[7]/div[4]/div[3]", "xpath:idRelative"],
+        ["xpath=//div[7]/div[4]/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a4699d69-1a1b-4302-ae72-dbbba59c11ed",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sort",
+      "targets": [
+        ["css=.sort", "css:finder"],
+        ["xpath=//div[@id='content_wrapper']/div[7]/div[4]/div[3]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[7]/div[4]/div[3]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fa2bd7e9-b36c-4077-b8e5-c17aac484796",
+      "comment": "",
+      "command": "click",
+      "target": "css=#\\36 60253366803 .product-image:nth-child(2)",
+      "targets": [
+        ["css=#\\36 60253366803 .product-image:nth-child(2)", "css:finder"],
+        ["xpath=//img[@title='The Design of Everyday Things']", "xpath:img"],
+        ["xpath=//div[@id='660253366803']/div[2]/a/picture/img", "xpath:idRelative"],
+        ["xpath=//picture/img", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win3536",
+      "windowTimeout": 2000
+    }, {
+      "id": "2727c5a9-6b67-468b-8a38-9fd46b37daac",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win3536}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ffd617ef-c338-4fec-83df-a30d3fe289de",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=T&C",
+      "targets": [
+        ["linkText=T&C", "linkText"],
+        ["css=.static-tnc > a", "css:finder"],
+        ["xpath=//a[contains(text(),'T&C')]", "xpath:link"],
+        ["xpath=//div[@id='buyPriceBox']/div[2]/div[2]/div[2]/div/div/div/span/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.snapdeal.com/offers/idbi-tnc2')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/span/a", "xpath:position"],
+        ["xpath=//a[contains(.,'T&C')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win4042",
+      "windowTimeout": 2000
+    }, {
+      "id": "9f6d8373-7a6b-4397-b81e-ffd72fa619fc",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win3791}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b13de4c1-5796-4251-9909-add4dadc3261",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win4042}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "708b2033-bc2e-434a-8118-3cc079b6f238",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a13c10e5-03f1-4e23-b4e5-a91b309d7ae7",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win3791}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "49d31486-b102-4aed-8daa-9da92691c34d",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5ab261a3-56c5-4de7-a36a-23f14696fb5b",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win3536}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "82d61cdf-14d1-4aaf-aa37-e2c0562ecc88",
+      "comment": "",
+      "command": "click",
+      "target": "css=.notIeLogoHeader > .notIeLogoHeader",
+      "targets": [
+        ["css=.notIeLogoHeader > .notIeLogoHeader", "css:finder"],
+        ["xpath=//img[@title='Snapdeal']", "xpath:img"],
+        ["xpath=//div[@id='sdHeader']/div[4]/div[2]/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9c12c610-1b2f-445c-a10f-578cad37fe39",
+      "comment": "",
+      "command": "click",
+      "target": "id=inputValEnter",
+      "targets": [
+        ["id=inputValEnter", "id"],
+        ["name=keyword", "name"],
+        ["css=#inputValEnter", "css:finder"],
+        ["xpath=//input[@id='inputValEnter']", "xpath:attributes"],
+        ["xpath=//div[@id='sdHeader']/div[4]/div[2]/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f3e5e6af-16d2-4e08-a3d3-9a346ca4930e",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputValEnter",
+      "targets": [
+        ["id=inputValEnter", "id"],
+        ["name=keyword", "name"],
+        ["css=#inputValEnter", "css:finder"],
+        ["xpath=//input[@id='inputValEnter']", "xpath:attributes"],
+        ["xpath=//div[@id='sdHeader']/div[4]/div[2]/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "The "
+    }, {
+      "id": "5f3723bf-925b-4407-8673-d5cb39f8f0e6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.disp-inlineblk",
+      "targets": [
+        ["css=.disp-inlineblk", "css:finder"],
+        ["xpath=//div[@id='sdHeader']/div[4]/div[2]/div/div[2]/div[4]/div/div/ul/li/div/a/div", "xpath:idRelative"],
+        ["xpath=//a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4e1e6c71-a26f-47ca-96eb-01ce639a1962",
+      "comment": "",
+      "command": "click",
+      "target": "css=#\\36 60253366803 .product-image:nth-child(2)",
+      "targets": [
+        ["css=#\\36 60253366803 .product-image:nth-child(2)", "css:finder"],
+        ["xpath=//img[@title='The Design of Everyday Things']", "xpath:img"],
+        ["xpath=//div[@id='660253366803']/div[2]/a/picture/img", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/a/picture/img", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win6194",
+      "windowTimeout": 2000
+    }, {
+      "id": "ed2e43ec-ef67-4b3a-9811-f1fbde4231f7",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win6194}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "28a1903b-9885-45c7-a5bc-9fcf0ce4b8a7",
+      "comment": "",
+      "command": "click",
+      "target": "id=add-cart-button-id",
+      "targets": [
+        ["id=add-cart-button-id", "id"],
+        ["css=#add-cart-button-id", "css:finder"],
+        ["xpath=//div[@id='add-cart-button-id']", "xpath:attributes"],
+        ["xpath=//div[@id='pdp-buynow-rp']/div/div", "xpath:idRelative"],
+        ["xpath=//div[4]/div[4]/div/div[2]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4852e366-8fd0-4b4b-baba-cb1538299e1d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.close-mess",
+      "targets": [
+        ["css=.close-mess", "css:finder"],
+        ["xpath=//div[@id='cartProductContainer']/div/div/span[3]", "xpath:idRelative"],
+        ["xpath=//div/span[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8a9541ce-945f-4579-8896-a5546390e516",
+      "comment": "",
+      "command": "click",
+      "target": "css=.marR5",
+      "targets": [
+        ["css=.marR5", "css:finder"],
+        ["xpath=//a[contains(text(),'Proceed To Checkout')]", "xpath:link"],
+        ["xpath=//div[@id='cartProductContainer']/div/div[2]/div[2]/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.snapdeal.com:443/proceedToCheckoutPage?cartId=499ccb4a-1603-4a24-b93c-7b4ac1ca16bc')]", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d0439fc7-830f-4468-ba89-e068d0cd03ad",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cartInner",
+      "targets": [
+        ["css=.cartInner", "css:finder"],
+        ["xpath=//div[@id='sdHeader']/div[4]/div[2]/div/div[3]/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[3]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3c4aa55c-263f-405e-8d1f-2fdd7576a2a2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.close-popup-icon > .sd-icon",
+      "targets": [
+        ["css=.close-popup-icon > .sd-icon", "css:finder"],
+        ["xpath=//div[@id='rtbScriptContainer']/div/span/i", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/span/i", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "ec6ee95a-0522-4565-9807-cfca4912f4dd",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["7f830194-6e46-4214-8e64-adf5ca282043"]
+  }],
+  "urls": ["https://www.snapdeal.com/"],
+  "plugins": []
+}

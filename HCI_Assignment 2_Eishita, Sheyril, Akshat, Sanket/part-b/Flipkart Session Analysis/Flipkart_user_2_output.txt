@@ -1,0 +1,35 @@
+open
+setWindowSize
+mouseOver
+click
+type
+click
+mouseOver
+mouseOver
+mouseOut
+mouseOver
+mouseOut
+mouseOver
+mouseOut
+click
+type
+click
+mouseOver
+mouseOut
+mouseOver
+click
+selectWindow
+click
+click
+click
+click
+click
+click
+click
+mouseOver
+runScript
+
+Total number of clicks = 12
+Total number of home button clicks = 0
+Total number of remove from cart button clicks= 0
+Total number of cancel button clicks= 0

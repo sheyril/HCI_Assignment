@@ -1,0 +1,15 @@
+open
+setWindowSize
+click
+type
+sendKeys
+mouseOver
+click
+selectWindow
+click
+click
+
+Total number of clicks = 4
+Total number of home button clicks = 0
+Total number of remove from cart button clicks= 0
+Total number of cancel button clicks= 0

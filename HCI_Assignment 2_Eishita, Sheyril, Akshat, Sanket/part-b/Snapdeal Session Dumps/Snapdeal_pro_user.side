@@ -1,0 +1,123 @@
+{
+  "id": "dd8e49c3-0670-4848-879f-40f891ad52fd",
+  "version": "2.0",
+  "name": "sn",
+  "url": "https://www.snapdeal.com/",
+  "tests": [{
+    "id": "0a45fd7f-af88-440d-9a39-4269ba783bae",
+    "name": "Untitled",
+    "commands": []
+  }, {
+    "id": "640e6173-73ed-47e6-85db-96f28e852c20",
+    "name": "test1",
+    "commands": [{
+      "id": "1925e5af-fe84-4a6d-b7ab-33b33013c040",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.snapdeal.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2dc796f7-0452-4edd-824a-522028f33a8f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "681x900",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5688dd79-789f-44e0-bddd-9b8f0d335540",
+      "comment": "",
+      "command": "click",
+      "target": "id=inputValEnter",
+      "targets": [
+        ["id=inputValEnter", "id"],
+        ["name=keyword", "name"],
+        ["css=#inputValEnter", "css:finder"],
+        ["xpath=//input[@id='inputValEnter']", "xpath:attributes"],
+        ["xpath=//div[@id='sdHeader']/div[4]/div[2]/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3a5f3ffc-43b9-4a0b-a473-657f0d5536fb",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputValEnter",
+      "targets": [
+        ["id=inputValEnter", "id"],
+        ["name=keyword", "name"],
+        ["css=#inputValEnter", "css:finder"],
+        ["xpath=//input[@id='inputValEnter']", "xpath:attributes"],
+        ["xpath=//div[@id='sdHeader']/div[4]/div[2]/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "the design of everyday things"
+    }, {
+      "id": "3c894211-6013-4cca-94ae-d7f4099921d0",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=inputValEnter",
+      "targets": [
+        ["id=inputValEnter", "id"],
+        ["name=keyword", "name"],
+        ["css=#inputValEnter", "css:finder"],
+        ["xpath=//input[@id='inputValEnter']", "xpath:attributes"],
+        ["xpath=//div[@id='sdHeader']/div[4]/div[2]/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "710eae95-6511-48cb-923a-ed4962281c86",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,44)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "55daf45c-fdf8-4eda-806e-476b1a1bbd13",
+      "comment": "",
+      "command": "click",
+      "target": "css=.dp-widget-link:nth-child(2) .wooble",
+      "targets": [
+        ["css=.dp-widget-link:nth-child(2) .wooble", "css:finder"],
+        ["xpath=//img[@title='The Design of Everyday Things']", "xpath:img"],
+        ["xpath=//div[@id='660253366803']/div[2]/a/picture/img", "xpath:idRelative"],
+        ["xpath=//section[3]/div/div[2]/a/picture/img", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win8542",
+      "windowTimeout": 2000
+    }, {
+      "id": "be044331-2281-4022-91ac-4a8deac1c3a3",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win8542}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f8107771-2f27-4a5c-86de-081197b90d68",
+      "comment": "",
+      "command": "click",
+      "target": "id=add-cart-button-id",
+      "targets": [
+        ["id=add-cart-button-id", "id"],
+        ["css=#add-cart-button-id", "css:finder"],
+        ["xpath=//div[@id='add-cart-button-id']", "xpath:attributes"],
+        ["xpath=//div[@id='pdp-buynow-rp']/div/div", "xpath:idRelative"],
+        ["xpath=//div[4]/div[4]/div/div[2]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "0f38901c-621b-4fe1-bc2c-d8d8e6a464e5",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["0a45fd7f-af88-440d-9a39-4269ba783bae"]
+  }],
+  "urls": [],
+  "plugins": []
+}

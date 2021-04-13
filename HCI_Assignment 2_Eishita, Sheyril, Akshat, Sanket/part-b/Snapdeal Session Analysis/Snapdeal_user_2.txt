@@ -1,0 +1,39 @@
+open
+setWindowSize
+click
+click
+type
+sendKeys
+click
+runScript
+click
+click
+type
+click
+click
+click
+click
+selectWindow
+click
+selectWindow
+selectWindow
+close
+selectWindow
+close
+selectWindow
+click
+click
+type
+click
+click
+selectWindow
+click
+click
+click
+click
+click
+
+Total number of clicks = 19
+Total number of home button clicks = 2
+Total number of remove from cart button clicks= 0
+Total number of cancel button clicks= 0

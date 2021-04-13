@@ -1,0 +1,361 @@
+{
+  "id": "e59cdfe1-666b-43fb-98aa-d79357538329",
+  "version": "2.0",
+  "name": "Flipkart Test",
+  "url": "",
+  "tests": [{
+    "id": "3e09dae8-c58b-4ddd-b05d-54d212ef22ef",
+    "name": "Flipkart Test 2",
+    "commands": [{
+      "id": "9c1a5961-8d4a-46cf-9ec9-4e2f65f6494a",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "35d16da4-8c83-474d-bbb9-67671f426c37",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "91fd5ff9-5d7c-4c6b-9ddf-137d27dff856",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Mobiles",
+      "targets": [
+        ["linkText=Mobiles", "linkText"],
+        ["css=.eFQ30H:nth-child(3) > a", "css:finder"],
+        ["xpath=//div[@id='container']/div/div[2]/div/div/div[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.flipkart.com/mobile-phones-store?fm=neo%2Fmerchandising&iid=M_5be08a6a-fa42-4154-8596-d03d72502920_1_372UD5BXDFYS_MC.ZRQ4DKH28K8J&otracker=hp_rich_navigation_3_1.navigationCard.RICH_NAVIGATION_Mobiles_ZRQ4DKH28K8J&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_3_L0_view-all&cid=ZRQ4DKH28K8J')]", "xpath:href"],
+        ["xpath=//div[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Mobiles')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fbca7c19-82c6-4fc6-aa83-88cd3c4733f8",
+      "comment": "",
+      "command": "click",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.\\_3704LK", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div/div/div[2]/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "756e8e53-e364-4fd0-a2ae-23ba3fb1d4a5",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.\\_3704LK", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div/div/div[2]/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "The Design of Everyday"
+    }, {
+      "id": "95b8bd17-a8ce-48d8-a9c2-8992c0f051f5",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=the design of everyday life",
+      "targets": [
+        ["linkText=the design of everyday life", "linkText"],
+        ["css=.Y5N33s:nth-child(2) .\\_3izBDY", "css:finder"],
+        ["xpath=//div[@id='container']/div/div/div/div[2]/div[2]/form/ul/li[2]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/search?q=the+design+of+everyday+life&as=on&as-show=on&otracker=AS_Query_OrganicAutoSuggest_2_22_na_na_ps&otracker1=AS_Query_OrganicAutoSuggest_2_22_na_na_ps&as-pos=2&as-type=RECENT&suggestionId=the+design+of+everyday+life&requestId=343dabd5-0b83-485b-900a-1a07c472e59c&as-searchtext=The%20Design%20of%20Everyday')]", "xpath:href"],
+        ["xpath=//li[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'the design of everyday life')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "901010bb-ddc2-4d55-8639-c445a753b0ed",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.eFQ30H:nth-child(3) .xtXmba",
+      "targets": [
+        ["css=.eFQ30H:nth-child(3) .xtXmba", "css:finder"],
+        ["xpath=//div[@id='container']/div/div[2]/div/div/div[3]/a/div[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/a/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "43b0df37-b360-49c2-9ba5-8ef644f801b7",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.\\_1AtVbE:nth-child(2) div:nth-child(3) .\\_396cs4",
+      "targets": [
+        ["css=.\\_1AtVbE:nth-child(2) div:nth-child(3) .\\_396cs4", "css:finder"],
+        ["xpath=//img[@alt='Virtual, Augmented and Mixed Reality. Industrial and Everyday Life Applications']", "xpath:img"],
+        ["xpath=//div[@id='container']/div/div[3]/div/div[2]/div[2]/div/div[3]/div/a/div/div/div/img", "xpath:idRelative"],
+        ["xpath=//div[3]/div/a/div/div/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fe92cf42-4467-4751-bc58-2c07d8d536e6",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.\\_1AtVbE:nth-child(2) div:nth-child(3) .\\_396cs4",
+      "targets": [
+        ["css=.\\_1AtVbE:nth-child(2) div:nth-child(3) .\\_396cs4", "css:finder"],
+        ["xpath=//img[@alt='Virtual, Augmented and Mixed Reality. Industrial and Everyday Life Applications']", "xpath:img"],
+        ["xpath=//div[@id='container']/div/div[3]/div/div[2]/div[2]/div/div[3]/div/a/div/div/div/img", "xpath:idRelative"],
+        ["xpath=//div[3]/div/a/div/div/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "88f1e980-41db-4d36-85d2-9a8cb1a8db69",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.\\_1AtVbE:nth-child(2) div:nth-child(3) .\\_2rpwqI > div:nth-child(1) > div",
+      "targets": [
+        ["css=.\\_1AtVbE:nth-child(2) div:nth-child(3) .\\_2rpwqI > div:nth-child(1) > div", "css:finder"],
+        ["xpath=//div[@id='container']/div/div[3]/div/div[2]/div[2]/div/div[3]/div/a/div/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/a/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c5512dfe-a024-4e92-b2fe-805075947e0f",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.\\_1AtVbE:nth-child(2) div:nth-child(3) .\\_2rpwqI > div:nth-child(1) > div",
+      "targets": [
+        ["css=.\\_1AtVbE:nth-child(2) div:nth-child(3) .\\_2rpwqI > div:nth-child(1) > div", "css:finder"],
+        ["xpath=//div[@id='container']/div/div[3]/div/div[2]/div[2]/div/div[3]/div/a/div/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/a/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e0be6d78-1854-43ff-91e5-3f52873b23b9",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.\\_1AtVbE:nth-child(2) div:nth-child(3) .\\_396cs4",
+      "targets": [
+        ["css=.\\_1AtVbE:nth-child(2) div:nth-child(3) .\\_396cs4", "css:finder"],
+        ["xpath=//img[@alt='Virtual, Augmented and Mixed Reality. Industrial and Everyday Life Applications']", "xpath:img"],
+        ["xpath=//div[@id='container']/div/div[3]/div/div[2]/div[2]/div/div[3]/div/a/div/div/div/img", "xpath:idRelative"],
+        ["xpath=//div[3]/div/a/div/div/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "247e7760-6f05-46d3-8ee0-94f2a2d85b2c",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.\\_1AtVbE:nth-child(2) div:nth-child(3) .\\_396cs4",
+      "targets": [
+        ["css=.\\_1AtVbE:nth-child(2) div:nth-child(3) .\\_396cs4", "css:finder"],
+        ["xpath=//img[@alt='Virtual, Augmented and Mixed Reality. Industrial and Everyday Life Applications']", "xpath:img"],
+        ["xpath=//div[@id='container']/div/div[3]/div/div[2]/div[2]/div/div[3]/div/a/div/div/div/img", "xpath:idRelative"],
+        ["xpath=//div[3]/div/a/div/div/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7a89054f-39b2-4645-aedf-d026d95c0922",
+      "comment": "",
+      "command": "click",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.\\_3704LK", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div/div/div[2]/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ab732aac-5458-44dc-9b6e-91f7946f0dda",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.\\_3704LK", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div/div/div[2]/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "the design of everyday thin"
+    }, {
+      "id": "f019a7e9-f139-46be-a741-b8f98b007d6c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.r85cly",
+      "targets": [
+        ["css=.r85cly", "css:finder"],
+        ["xpath=//div[@id='container']/div/div/div/div[2]/div[2]/form/ul/li/div/a/div[2]/span", "xpath:idRelative"],
+        ["xpath=//span", "xpath:position"],
+        ["xpath=//span[contains(.,'the design of everyday thin')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "836ae9f6-f4a2-4c46-9265-ab87e0dd06c9",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.\\_1AtVbE:nth-child(2) > .\\_13oc-S > div:nth-child(1) .\\_2rpwqI > div:nth-child(1) > div",
+      "targets": [
+        ["css=.\\_1AtVbE:nth-child(2) > .\\_13oc-S > div:nth-child(1) .\\_2rpwqI > div:nth-child(1) > div", "css:finder"],
+        ["xpath=//div[@id='container']/div/div[3]/div/div[2]/div[2]/div/div/div/a/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/a/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "87cc9a90-0607-4d35-97f0-de377cc95fa6",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.\\_1AtVbE:nth-child(2) > .\\_13oc-S > div:nth-child(1) .\\_2rpwqI > div:nth-child(1) > div",
+      "targets": [
+        ["css=.\\_1AtVbE:nth-child(2) > .\\_13oc-S > div:nth-child(1) .\\_2rpwqI > div:nth-child(1) > div", "css:finder"],
+        ["xpath=//div[@id='container']/div/div[3]/div/div[2]/div[2]/div/div/div/a/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/a/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ff538b40-81e8-432b-bbe1-3af723a2b0a9",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.\\_1AtVbE:nth-child(2) > .\\_13oc-S > div:nth-child(1) .CXW8mj",
+      "targets": [
+        ["css=.\\_1AtVbE:nth-child(2) > .\\_13oc-S > div:nth-child(1) .CXW8mj", "css:finder"],
+        ["xpath=//div[@id='container']/div/div[3]/div/div[2]/div[2]/div/div/div/a/div/div/div", "xpath:idRelative"],
+        ["xpath=//a/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "47ac8280-4f3a-4b6c-96f5-2c9b69ee60d7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_1AtVbE:nth-child(2) > .\\_13oc-S > div:nth-child(1) .CXW8mj",
+      "targets": [
+        ["css=.\\_1AtVbE:nth-child(2) > .\\_13oc-S > div:nth-child(1) .CXW8mj", "css:finder"],
+        ["xpath=//div[@id='container']/div/div[3]/div/div[2]/div[2]/div/div/div/a/div/div/div", "xpath:idRelative"],
+        ["xpath=//a/div/div/div", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win8005",
+      "windowTimeout": 2000
+    }, {
+      "id": "dbd466d2-62ec-409d-8962-1286c7bf6cef",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win8005}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ca330e51-0587-4174-ad2b-69d599bb05b3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_2amPTt",
+      "targets": [
+        ["css=.\\_2amPTt", "css:finder"],
+        ["xpath=//img[@alt='The Design of Everyday Things']", "xpath:img"],
+        ["xpath=//div[@id='container']/div/div[3]/div/div/div/div/div/div[2]/div/div[2]/img", "xpath:idRelative"],
+        ["xpath=//div[2]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "33c7aaac-bbf5-4f04-ab83-6b480138a8eb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_2amPTt",
+      "targets": [
+        ["css=.\\_2amPTt", "css:finder"],
+        ["xpath=//img[@alt='The Design of Everyday Things']", "xpath:img"],
+        ["xpath=//div[@id='container']/div/div[3]/div/div/div/div/div/div[2]/div/div[2]/img", "xpath:idRelative"],
+        ["xpath=//div[2]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1d4bdbf7-e8a9-4d85-982f-9bba768b06b3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_2P_LDn",
+      "targets": [
+        ["css=.\\_2P_LDn", "css:finder"],
+        ["xpath=//div[@id='container']/div/div[3]/div/div[2]/div[4]/div/div/div/div[2]/div/div[2]/div/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Change')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "63750e77-a23e-4861-b704-d3c150df09b3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.bTgKY7",
+      "targets": [
+        ["css=.bTgKY7", "css:finder"],
+        ["xpath=//div[@id='container']/div/div[3]/div/div[2]/div[4]/div/div/div/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/div/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "60d1b9ff-da97-40cd-9f4a-86570ca3bb7f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_2GoDe3:nth-child(2)",
+      "targets": [
+        ["css=.\\_2GoDe3:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='container']/div/div[3]/div/div[2]/div[7]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[7]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2c640b52-71c7-4dc4-af56-e6e3d5d68ce8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_1AtVbE:nth-child(3) .\\_2eaE_9",
+      "targets": [
+        ["css=.\\_1AtVbE:nth-child(3) .\\_2eaE_9", "css:finder"],
+        ["xpath=//div[@id='container']/div/div[3]/div/div[2]/div[7]/div[3]/div/div[3]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "55176c93-3017-455e-81c6-7b92dc913d07",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_3v1-ww",
+      "targets": [
+        ["css=.\\_3v1-ww", "css:finder"],
+        ["xpath=//div[@id='container']/div/div[3]/div/div/div[2]/div/ul/li/button", "xpath:idRelative"],
+        ["xpath=//li/button", "xpath:position"],
+        ["xpath=//button[contains(.,' ADD TO CART')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "887fff35-77dd-4645-bdda-ca29b261883d",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.\\_3v1-ww",
+      "targets": [
+        ["css=.\\_3v1-ww", "css:finder"],
+        ["xpath=//div[@id='container']/div/div[3]/div/div/div[2]/div/ul/li/button", "xpath:idRelative"],
+        ["xpath=//li/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "92415da3-4f10-4fd8-b418-892a3b33375d",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "b30bee9a-64d7-4fce-a9ae-abec116964b8",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["3e09dae8-c58b-4ddd-b05d-54d212ef22ef"]
+  }],
+  "urls": ["https://www.flipkart.com/"],
+  "plugins": []
+}
